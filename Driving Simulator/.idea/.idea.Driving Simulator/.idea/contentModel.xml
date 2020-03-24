@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Burakhan\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Driving Simulator.-1023356941.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Burakhan\Documents\Driving Simulator" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="FoveUnityPlugin" t="Include">
+          <e p="Resources" t="Include">
+            <e p="EyeShader.shader" t="Include" />
+          </e>
+          <e p="Source" t="Include">
+            <e p="Behaviours" t="Include">
+              <e p="FoveInterface.cs" t="Include" />
+              <e p="FoveManager.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="FoveInterfaceEditor.cs" t="Include" />
+              <e p="FoveSettingsEditor.cs" t="Include" />
+              <e p="ProjectChecks.cs" t="Include" />
+            </e>
+            <e p="ScriptableObjects" t="Include">
+              <e p="FoveSettings.cs" t="Include" />
+            </e>
+            <e p="Utility" t="Include">
+              <e p="FoveResearch.cs" t="Include" />
+              <e p="FoveUnityUtils.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Myo" t="Include">
+          <e p="README-MyoUnity.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Myo.NET" t="Include">
+              <e p="EventTypes.cs" t="Include" />
+              <e p="Hub.cs" t="Include" />
+              <e p="libmyo.cs" t="Include" />
+              <e p="Myo.cs" t="Include" />
+              <e p="Pose.cs" t="Include" />
+              <e p="Quaternion.cs" t="Include" />
+              <e p="Vector3.cs" t="Include" />
+            </e>
+            <e p="ThalmicHub.cs" t="Include" />
+            <e p="ThalmicMyo.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AsynchronousClient.cs" t="Include" />
+          <e p="CarController.cs" t="Include" />
+          <e p="EMG.cs" t="Include" />
+          <e p="ICATEmpaticaBLEClient.cs" t="Include" />
+          <e p="LocalNavMeshBuilder.cs" t="Include" />
+          <e p="LogitechGSDK.cs" t="Include" />
+          <e p="MenuHandler.cs" t="Include" />
+          <e p="NavMeshSourceTag.cs" t="Include" />
+          <e p="Shift.cs" t="Include" />
+          <e p="socketScripts.cs" t="Include" />
+          <e p="SpawnPositionCollector.cs" t="Include" />
+          <e p="StateObject.cs" t="Include" />
+          <e p="TCPConnection.cs" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="WrldResources" t="Include">
+            <e p="Resources" t="Include">
+              <e p="FrankBold50_A8_icons.fnt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Wrld" t="Include">
+          <e p="3rd Party Licenses" t="Include">
+            <e p="fonts" t="Include">
+              <e p="IPA_font.txt" t="Include" />
+              <e p="OpenSans.txt" t="Include" />
+            </e>
+            <e p="libs" t="Include">
+              <e p="ANGLE.txt" t="Include" />
+              <e p="ASIHttpRequest.txt" t="Include" />
+              <e p="http-parser.txt" t="Include" />
+              <e p="httpxx.txt" t="Include" />
+              <e p="libcares.txt" t="Include" />
+              <e p="libcrypto.txt" t="Include" />
+              <e p="libcurl.txt" t="Include" />
+              <e p="libjpeg-turbo.txt" t="Include" />
+              <e p="libktx.txt" t="Include" />
+              <e p="libpng.txt" t="Include" />
+              <e p="libssl.txt" t="Include" />
+              <e p="libuv.txt" t="Include" />
+              <e p="md5.cpp.txt" t="Include" />
+              <e p="mt19937ar.c.txt" t="Include" />
+              <e p="poly2tri.txt" t="Include" />
+              <e p="pthread.txt" t="Include" />
+              <e p="rapidjson.txt" t="Include" />
+              <e p="rapidxml.txt" t="Include" />
+              <e p="sqlite3.txt" t="Include" />
+              <e p="zlib.txt" t="Include" />
+            </e>
+          </e>
+          <e p="API" t="Include">
+            <e p="Api.cs" t="Include" />
+            <e p="WrldMap.cs" t="Include" />
+          </e>
+          <e p="AssetData" t="Include">
+            <e p="iOS" t="Include">
+              <e p="FrankBold50_A8_icons.fnt" t="Include" />
+            </e>
+            <e p="Windows" t="Include">
+              <e p="FrankBold50_A8_icons.fnt" t="Include" />
+            </e>
+          </e>
+          <e p="Demo" t="Include">
+            <e p="Buildings" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BuildingAltitudePicking.cs" t="Include" />
+                <e p="ClearingBuildingHighlights.cs" t="Include" />
+                <e p="HighlightingBuildings.cs" t="Include" />
+                <e p="PickingBuildings.cs" t="Include" />
+                <e p="SelectingBuildings.cs" t="Include" />
+                <e p="UpdatingBuildingHighlightColor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="CameraExample" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CameraTransitionAnimate.cs" t="Include" />
+                <e p="CameraTransitionHeadingAndTilt.cs" t="Include" />
+                <e p="CameraTransitionMovingCamera.cs" t="Include" />
+                <e p="ExampleChanger.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Collisions" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="FireProjectile.cs" t="Include" />
+                <e p="Projectile.cs" t="Include" />
+              </e>
+            </e>
+            <e p="IndoorMaps" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CustomIndoorMapMaterial.cs" t="Include" />
+                <e p="CustomIndoorMapMaterialFactory.cs" t="Include" />
+                <e p="CustomIndoorMapTextureFetcher.cs" t="Include" />
+                <e p="DisplayIndoorMapName.cs" t="Include" />
+                <e p="EnterExitIndoorMap.cs" t="Include" />
+                <e p="EnterIndoorMap.cs" t="Include" />
+                <e p="HighlightingIndoors.cs" t="Include" />
+                <e p="IndoorMapWithCustomMaterials.cs" t="Include" />
+                <e p="MovingBetweenFloors.cs" t="Include" />
+                <e p="MovingWithSlider.cs" t="Include" />
+                <e p="PickingIndoors.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Positioning" t="Include">
+              <e p="FlyObjectOverMap.cs" t="Include" />
+              <e p="MoveObjectOnMap.cs" t="Include" />
+              <e p="PositionObjectAtECEFCoordinate.cs" t="Include" />
+              <e p="PositionObjectAtLatitudeAndLongitude.cs" t="Include" />
+              <e p="RotateObjectOnMap.cs" t="Include" />
+            </e>
+            <e p="Streaming" t="Include">
+              <e p="SeparatingStreamingAndRendering.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CameraJumpEditor.cs" t="Include" />
+            <e p="CopyPlatformResources.cs" t="Include" />
+            <e p="ExitPlayModeOnScriptCompile.cs" t="Include" />
+            <e p="FirstInstallActionsRunner.cs" t="Include" />
+            <e p="PlatformHelpers.cs" t="Include" />
+            <e p="WrldStartupEditor.cs" t="Include" />
+            <e p="XcodeProjectUpdater.cs" t="Include" />
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="x86_64" t="Include">
+              <e p="StreamAlpha.bundle" t="Include">
+                <e p="Contents" t="Include">
+                  <e p="Resources" t="Include">
+                    <e p="FrankBold50_A8_icons.fnt" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ApiCallbacks.cs" t="Include" />
+            <e p="ApiImplementation.cs" t="Include" />
+            <e p="Camera" t="Include">
+              <e p="CameraAnimationOptions.cs" t="Include" />
+              <e p="CameraApi.cs" t="Include" />
+              <e p="CameraApiInternal.cs" t="Include" />
+              <e p="CameraApiInteropExtensions.cs" t="Include" />
+              <e p="CameraApiInteropTypes.cs" t="Include" />
+              <e p="CameraHelpers.cs" t="Include" />
+              <e p="CameraInputHandler.cs" t="Include" />
+              <e p="CameraJumpBehaviour.cs" t="Include" />
+              <e p="CameraState.cs" t="Include" />
+              <e p="CameraUpdate.cs" t="Include" />
+              <e p="InterestPointProvider.cs" t="Include" />
+              <e p="NativeCameraState.cs" t="Include" />
+              <e p="ZoomLevelHelpers.cs" t="Include" />
+            </e>
+            <e p="Concurrency" t="Include">
+              <e p="ConcurrentQueue.cs" t="Include" />
+              <e p="ThreadService.cs" t="Include" />
+            </e>
+            <e p="ConfigParams.cs" t="Include" />
+            <e p="Constants.cs" t="Include" />
+            <e p="FPS.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="AppInterface.cs" t="Include" />
+              <e p="IUnityInputHandler.cs" t="Include" />
+              <e p="IUnityInputProcessor.cs" t="Include" />
+              <e p="Mouse" t="Include">
+                <e p="MouseEventWrapper.cs" t="Include" />
+                <e p="MousePanGesture.cs" t="Include" />
+                <e p="MouseRotateGesture.cs" t="Include" />
+                <e p="MouseTapGesture.cs" t="Include" />
+                <e p="MouseTiltGesture.cs" t="Include" />
+                <e p="MouseTouchGesture.cs" t="Include" />
+                <e p="MouseZoomGesture.cs" t="Include" />
+                <e p="UnityMouseInputProcessor.cs" t="Include" />
+              </e>
+              <e p="Touch" t="Include">
+                <e p="PanGesture.cs" t="Include" />
+                <e p="PinchGesture.cs" t="Include" />
+                <e p="RotateGesture.cs" t="Include" />
+                <e p="TapGesture.cs" t="Include" />
+                <e p="TouchEventWrapper.cs" t="Include" />
+                <e p="TouchGesture.cs" t="Include" />
+                <e p="UnityTouchInputProcessor.cs" t="Include" />
+              </e>
+              <e p="UnityInputHandler.cs" t="Include" />
+            </e>
+            <e p="Interop" t="Include">
+              <e p="InteropExtensions.cs" t="Include" />
+              <e p="InteropTypes.cs" t="Include" />
+            </e>
+            <e p="Materials" t="Include">
+              <e p="IdGenerator.cs" t="Include" />
+              <e p="MaterialRepository.cs" t="Include" />
+              <e p="TextureLoadHandler.cs" t="Include" />
+            </e>
+            <e p="Maths" t="Include">
+              <e p="DoubleRay.cs" t="Include" />
+              <e p="DoubleVector3.cs" t="Include" />
+              <e p="DoubleVector3Extensions.cs" t="Include" />
+              <e p="EcefHelpers.cs" t="Include" />
+              <e p="EcefTangentBasis.cs" t="Include" />
+              <e p="MathsHelpers.cs" t="Include" />
+              <e p="Matrix4x4Extensions.cs" t="Include" />
+              <e p="QuaternionExtensions.cs" t="Include" />
+            </e>
+            <e p="Meshes" t="Include">
+              <e p="MeshBuilder.cs" t="Include" />
+              <e p="MeshUploader.cs" t="Include" />
+              <e p="PreparedMesh.cs" t="Include" />
+              <e p="PreparedMeshRepository.cs" t="Include" />
+            </e>
+            <e p="NativePluginRunner.cs" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="Buildings" t="Include">
+                <e p="BuildingContour.cs" t="Include" />
+                <e p="BuildingDimensions.cs" t="Include" />
+                <e p="BuildingHighlight.cs" t="Include" />
+                <e p="BuildingHighlightOptions.cs" t="Include" />
+                <e p="BuildingInformation.cs" t="Include" />
+                <e p="BuildingInformationExtensions.cs" t="Include" />
+                <e p="BuildingsApi.cs" t="Include" />
+                <e p="BuildingsApiInternal.cs" t="Include" />
+                <e p="BuildingsApiInteropExtensions.cs" t="Include" />
+              </e>
+              <e p="IndoorMaps" t="Include">
+                <e p="DefaultIndoorMapMaterial.cs" t="Include" />
+                <e p="DefaultIndoorMapMaterialFactory.cs" t="Include" />
+                <e p="DefaultIndoorMapTextureFetcher.cs" t="Include" />
+                <e p="IIndoorMapMaterial.cs" t="Include" />
+                <e p="IIndoorMapMaterialFactory.cs" t="Include" />
+                <e p="IIndoorMapStreamedTextureObserver.cs" t="Include" />
+                <e p="IIndoorMapTextureFetcher.cs" t="Include" />
+                <e p="IIndoorMapTextureStreamingService.cs" t="Include" />
+                <e p="IndoorMap.cs" t="Include" />
+                <e p="IndoorMapHighlightRenderable.cs" t="Include" />
+                <e p="IndoorMapMaterialRepository.cs" t="Include" />
+                <e p="IndoorMapMaterialService.cs" t="Include" />
+                <e p="IndoorMapRenderable.cs" t="Include" />
+                <e p="IndoorMapsApi.cs" t="Include" />
+                <e p="IndoorMapsApiInternal.cs" t="Include" />
+                <e p="IndoorMapStreamedTextureObserver.cs" t="Include" />
+                <e p="IndoorMapTextureStreamingService.cs" t="Include" />
+                <e p="IndoorMaterialDescriptor.cs" t="Include" />
+                <e p="InstancedIndoorMapRenderable.cs" t="Include" />
+                <e p="StreamedTextureRequest.cs" t="Include" />
+              </e>
+              <e p="Labels" t="Include">
+                <e p="LabelServiceInternal.cs" t="Include" />
+              </e>
+              <e p="Terrain" t="Include">
+                <e p="Heights" t="Include">
+                  <e p="TerrainHeightProvider.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Space" t="Include">
+              <e p="EarthConstants.cs" t="Include" />
+              <e p="ECEFTransformUpdateStrategy.cs" t="Include" />
+              <e p="ElevationMode.cs" t="Include" />
+              <e p="EnvironmentFlattening" t="Include">
+                <e p="EnvironmentFlatteningApi.cs" t="Include" />
+                <e p="EnvironmentFlatteningApiInternal.cs" t="Include" />
+              </e>
+              <e p="GeographicApi.cs" t="Include" />
+              <e p="GeographicTransform.cs" t="Include" />
+              <e p="ITransformUpdateStrategy.cs" t="Include" />
+              <e p="LatLongAltitude.cs" t="Include" />
+              <e p="Positioners" t="Include">
+                <e p="Positioner.cs" t="Include" />
+                <e p="PositionerApi.cs" t="Include" />
+                <e p="PositionerApiInternal.cs" t="Include" />
+                <e p="PositionerApiInteropExtensions.cs" t="Include" />
+                <e p="PositionerOptions.cs" t="Include" />
+              </e>
+              <e p="SpacesApi.cs" t="Include" />
+              <e p="TransformHelper.cs" t="Include" />
+              <e p="UnityWorldSpaceCoordinateFrame.cs" t="Include" />
+              <e p="UnityWorldSpaceTransformUpdateStrategy.cs" t="Include" />
+            </e>
+            <e p="Streaming" t="Include">
+              <e p="CollisionStreamingType.cs" t="Include" />
+              <e p="GameObjectFactory.cs" t="Include" />
+              <e p="GameObjectRepository.cs" t="Include" />
+              <e p="GameObjectStreamer.cs" t="Include" />
+              <e p="IndoorMapScene.cs" t="Include" />
+              <e p="MapGameObjectScene.cs" t="Include" />
+              <e p="ResourceCeilingProvider.cs" t="Include" />
+              <e p="StreamingBehaviour.cs" t="Include" />
+              <e p="StreamingUpdater.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="APIKeyHelpers.cs" t="Include" />
+              <e p="AssertHandler.cs" t="Include" />
+              <e p="EndProgram.cs" t="Include" />
+              <e p="ErrorMessage.cs" t="Include" />
+              <e p="FatalErrorHandler.cs" t="Include" />
+              <e p="InvalidApiKeyException.cs" t="Include" />
+              <e p="NativeInteropExtensions.cs" t="Include" />
+              <e p="NativeInteropHelpers.cs" t="Include" />
+            </e>
+            <e p="ViewNormals.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Highlight.shader" t="Include" />
+            <e p="StandardWithVertexColor.shader" t="Include" />
+            <e p="StencilledGeometry.shader" t="Include" />
+            <e p="StencilReflectionFloor.shader" t="Include" />
+            <e p="StencilWrite.shader" t="Include" />
+            <e p="UnityVC.cginc" t="Include" />
+            <e p="UnityVCShadow.cginc" t="Include" />
+          </e>
+          <e p="Version" t="Include">
+            <e p="ShadowConfig.txt" t="Include" />
+            <e p="v0.6.918.txt" t="Include" />
+            <e p="WelcomeConfig.txt" t="Include" />
+          </e>
+          <e p="VRExample" t="Include">
+            <e p="SimpleScene" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="RotateObject.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Driving Simulator.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
