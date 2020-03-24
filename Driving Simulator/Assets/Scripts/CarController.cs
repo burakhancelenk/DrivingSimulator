@@ -212,49 +212,40 @@ public class CarController : MonoBehaviour {
 
         velocityText.text = "0 km/h";
         gearText.text = "N";
+        for (int i = 0; i < GearBox.Length; i++)
+        {
+            GearBox[i] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
+            if (i > 1)
+            {
+                GearBox[i].minSpeed = (i-2) * 80 ;
+                GearBox[i].maxSpeed = (i - 2) * 80 + 80 ;
+                GearBox[i].shift = (char)(i - 1) ;
+                GearBox[i].id = i ;
+                continue;
+            }
 
-        GearBox[0] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[1] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[2] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[3] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[4] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[5] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[6] = (Shift)ScriptableObject.CreateInstance(typeof(Shift));
-        GearBox[0].minSpeed = 0;
-        GearBox[0].maxSpeed = 50;
-        GearBox[0].shift = 'R';
-        GearBox[0].id = 0;
-        GearBox[1].minSpeed = 0;
-        GearBox[1].maxSpeed = 0;
-        GearBox[1].shift = 'N';
-        GearBox[1].id = 1;
-        GearBox[2].minSpeed = 0;
-        GearBox[2].maxSpeed = 80;
-        GearBox[2].shift = '1';
-        GearBox[2].id = 2;
-        GearBox[3].minSpeed = 80;
-        GearBox[3].maxSpeed = 160;
-        GearBox[3].shift = '2';
-        GearBox[3].id = 3;
-        GearBox[4].minSpeed = 160;
-        GearBox[4].maxSpeed = 240;
-        GearBox[4].shift = '3';
-        GearBox[4].id = 4;
-        GearBox[5].minSpeed = 240;
-        GearBox[5].maxSpeed = 320;
-        GearBox[5].shift = '4';
-        GearBox[5].id = 5;
-        GearBox[6].minSpeed = 320;
-        GearBox[6].maxSpeed = 400;
-        GearBox[6].shift = '5';
-        GearBox[6].id = 6;
+            if (i == 0)
+            {
+                GearBox[0].minSpeed = 0;
+                GearBox[0].maxSpeed = 50;
+                GearBox[0].shift = 'R';
+                GearBox[0].id = 0;
+            }
+            else
+            {
+                GearBox[1].minSpeed = 0;
+                GearBox[1].maxSpeed = 0;
+                GearBox[1].shift = 'N';
+                GearBox[1].id = 1;
+            }   
+        }
 
         Gear =(Shift)ScriptableObject.CreateInstance(typeof(Shift));
         Gear = GearBox[1];
         tempGear = 1;
         steerState = new LogitechGSDK.DIJOYSTATE2ENGINES();
         StartUp();
-        Invoke("Idle",0.65f);
+        Invoke(nameof(Idle),0.65f);
     }
 
     void Update()
