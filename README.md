@@ -1,6 +1,6 @@
 # Driving Simulator(PC)
 * **This project is a simulation, not a game. The aim of this project is to observe and analyze the effects of environmental factors on human body while driving.**  
-* Made with **Unity**.  
+* Made with **Unity and C#**.  
 * Used **Wrld3D SDK** for realtime real map generation.  
   
 ## Integrated Equipments  
